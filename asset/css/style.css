@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html{
+      scroll-behavior: smooth;
+}
+body{
+    background-color: #6a2b05;
+    font-family:poppins;
+}
+nav ul
+{
+    list-style-type: none;
+    background-color: #80411e;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+ 
+nav li
+{
+    float: right;
+    margin: 0 20px 0 0;
+}
+ 
+nav ul li a
+{
+    display: block;
+    padding: 14px 15px;
+    color: white;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight:600;
+}
+ 
+nav ul li a:hover
+{
+    color: #F9E0BB;
+    transition-duration: 0.3s;
+}
+nav h3 {
+      float: left;
+      padding: 13px 15px;
+      text-decoration: none;
+      font-family: poppins;
+      font-size: 15px;
+      color: #fae0ba;
+      letter-spacing: 1px;
+      font-weight: bold;
+      letter-spacing: 2px;
+}
+/* hero section */
+
+.card-content{
+      margin: 35px;
+      padding: 1rem 0 0;
+}
+.table-price{
+      border-radius: 10px;
+      text-align: center;
+}
+.card-image{
+      background-image: url(/asset/img/nathan-dumlao-XOhI_kW_TaM-unsplash.jpg);
+      height: 200px;
+      overflow: hidden;
+}
+/* menu section */
+
+.menu{
+      padding: 6rem 8em 1.4rem;
+
+} 
+.about{
+      padding: 6rem 8em 1.4rem;
+}  
+table{
+      border: 10px black;
+}
+/* end hero section */
